@@ -33,7 +33,7 @@ class Waves extends React.Component {
 
     // Get the element
     let $ripple = ReactDOM.findDOMNode(this);
-    let $button = $ripple.parentElement;
+    let $button = $ripple.parentNode;
 
     let buttonStyle = window.getComputedStyle($button);
     let buttonPos = $button.getBoundingClientRect();

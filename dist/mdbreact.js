@@ -1062,7 +1062,7 @@ var Waves = function (_React$Component) {
 
       // Get the element
       var $ripple = _reactDom2.default.findDOMNode(this);
-      var $button = $ripple.parentElement;
+      var $button = $ripple.parentNode;
 
       var buttonStyle = window.getComputedStyle($button);
       var buttonPos = $button.getBoundingClientRect();
