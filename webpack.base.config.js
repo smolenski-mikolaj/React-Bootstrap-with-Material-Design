@@ -70,7 +70,8 @@ module.exports = function (env) {
     },
     resolve: {
       alias: {
-        mdbreact: 'src/index'
+        mdbreact: 'src/index',
+        'react': path.resolve(__dirname, '../../node_modules', 'react')
       },
       extensions: ['.js', '.json']
     },
